@@ -1,129 +1,262 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <title>Shetland Robotics</title>
 
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta property="og:title" content="Shetland Robotics">
-    <meta property="og:url" content="https://www.shetlandrobotics.com/">
-    <meta property="og:type" content="website">
-    <meta name="application-name" content="Shetland Robotics">
-    <meta name="msapplication-TileColor" content="TODO COLOR SCHEME">
+    <title>Shetland Robotics - Marine ROV Services</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
+    <link rel="alternate" hreflang="x-default" href="index.html"/>
+    <link rel="alternate" hreflang="en" href="index.html"/>
 
-    <link rel="stylesheet" type="text/css" media="all" href="css/index.css">
+    <meta name="twitter:site" content="@shetlandrobotics"/>
+    <meta property="og:title" content="Shetland Robotics | Marine ROV Services"/>
+    <meta name="twitter:title" content="Shetland Robotics | Marine ROV Services"/>
+    <meta property="og:description"
+          content="Local & affordable marine ROV services | Giving you frictionless access to your underwater assets.&#xA;&#xA;"/>
+    <meta name="description"
+          content="Local & affordable marine ROV services | Giving you frictionless access to your underwater assets.&#xA;&#xA;"/>
+    <meta name="twitter:description"
+          content="Local & affordable marine ROV services | Giving you frictionless access to your underwater assets.&#xA;&#xA;"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#131c37">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Shetland Robotics",
+            "url": "https://www.shetlandrobotics.com"
+        }
+
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Shetland Robotics Ltd",
+            "url": "https://www.shetlandrobotics.com",
+            "logo": "https://www.shetlandrobotics.com/images/logo_dark.png",
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+44 (0)7502593965",
+                    "email": "info@shetlandrobotics.com",
+                    "contactType": "Inquiries",
+                    "availableLanguage": [
+                        "English"
+                    ]
+                }
+            ]
+        }
+    </script>
+
+    <link rel="stylesheet" href="dist/v1/app.bundle.css">
+    <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
 </head>
 <body>
-
-<!-- header -->
-<nav id="nav-main" class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">Shetland Robotics</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">A link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">A link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">A homosexual</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!-- header end -->
-
-
-<!-- main content -->
-<div id="main-content" class="col">
-    <!-- TOP (above/below water) -->
-    <div class="row" id="scene-top">
-
-    </div>
-
-
-    <!-- MIDDLE (under water) -->
-    <div class="row" id="scene-middle">
-
-    </div>
-
-    <!-- BOTTOM (ocean floor -->
-    <div class="row" id="scene-bottom">
-
-    </div>
-</div>
-<!-- main content end -->
-
-
-<!-- footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <div class="container-fluid text-center text-md-left">
-        <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
-                <h5 class="text-uppercase">Shetland Robotics</h5>
-                <p>Local marine ROV services</p>
-            </div>
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled">
+<nav class="navigation ">
+    <div class="container grid">
+        <div class="grid__box grid__1-8 navigation__logo-box">
+            <a href="index.html" class="navigation__logo">Shetland Robotics</a>
+        </div>
+        <div class="grid__box grid__7-8 navigation__menu-box">
+            <div id="ul-wrapper" class="container">
+                <ul>
                     <li>
-                        <a href="#">Link 1</a>
+                        <a class="shadow" href="#section_services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 4</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 4</a>
+                        <a href="contact.html" class="button button__line navigation__preorder"
+                           data-track="['Menu','Click','Order']">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+</nav>
 
-    <div class="footer-copyright text-right py-3">
-        <a>© 2020 Copyright Shetland Robotics Ltd</a>
+<div class="navigation__mobile-menu" data-track="['Menu','Click','Open mobile menu']">
+    Open menu<span></span><span></span><span></span><span></span>
+</div>
+
+
+<header class="welcome">
+
+    <section class="hero">
+        <img class="hero__image"
+             src="./images/background_home_top.jpg?w=1920&amp;q=80"/>
+        <div class="hero__overlay-box"></div>
+    </section>
+
+    <section class="intro">
+        <div class="container container--full-height">
+            <div class="intro__box">
+                <h2 class="intro__name">Local and affordable marine ROV services</h2>
+                <h3 class="intro__tag">Professional marine ROV operators</h3>
+                <div class="intro__text"><p>Giving you frictionless access to your underwater assets. Learn more about
+                    the services we provide.</p></div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main class="content">
+
+    <section class="section section__specs">
+        <div class="container">
+            <h2 id="section_services" class="section__header" style="text-align: center; padding-top: 70px; margin: 0;">
+                Services</h2>
+            <div class="sub__content voyagelist__items">
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger" onclick="toggleModal('aquaculture')">
+                            <header style="background-image: url('./images/tile_aquaculture.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Aquaculture</h1>
+                                    <h2>Grid and net inspections  -  <span style="color: #02E8E5">Read more >></span></h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Grid and net inspections  -   Read more >></p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger" onclick="toggleModal('shipping')">
+                            <header style="background-image: url('./images/tile_shipping.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Shipping</h1>
+                                    <h2>Hull and propeller inspections  -  <span style="color: #02E8E5">Read more >></span></h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Hull and propeller inspections  -   Read more >></p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger" onclick="toggleModal('infrastructure')">
+                            <header style="background-image: url('./images/tile_infrastructure.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Infrastructure</h1>
+                                    <h2>Inspections of piers, bridges, and tanks  -  <span style="color: #02E8E5">Read more >></span></h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Inspections of piers, bridges, and tanks  -   Read more >></p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger" onclick="toggleModal('energy')">
+                            <header style="background-image: url('./images/tile_energy.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Energy</h1>
+                                    <h2>Renewable and offshore structures  -  <span style="color: #02E8E5">Read more >></span></h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Renewable and offshore structures  -   Read more >></p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger" onclick="toggleModal('marine-science')">
+                            <header style="background-image: url('./images/tile_marine-science.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Marine Science</h1>
+                                    <h2>Seabed and marine life inspections  -  <span style="color: #02E8E5">Read more >></span></h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Seabed and marine life inspections  -   Read more >></p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article class="voyagelist__article">
+                    <div class="voyagelist__article-content">
+                        <a class="mtrigger">
+                            <header style="background-image: url('./images/tile_exploration.jpg?w=1024&amp;fit=fill&amp;fm=png')">
+                                <div class="voyagelist__article-header-content">
+                                    <h1 class="mt-auto">Exploration</h1>
+                                    <h2>Underwater discoveries</h2>
+                                </div>
+                            </header>
+                            <div class="voyagelist__article-description-container" hidden>
+                                <p>Underwater discoveries</p>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--  LATEST PROJECT SECTION
+    <section class="section section__unique">
+        <div class="container">
+            <div class="unique__content">
+                <h2 class="section__header unique__header">Live stream inspections to remote viewers</h2>
+                <div class="section__text unique__text"><p>Enabling ROV operators to stream live video feed from
+                    underwater drones to remote experts and decision-makers.</p></div>
+                <a class="button button__whole mt-12"
+                   href="blog/streaming-live-video-from-underwater-drones-to-remote-viewers.html">Read more</a>
+            </div>
+        </div>
+    </section>-->
+
+
+
+    <!-- MODAL POPUP -->
+    <div class="mmodal">
+        <div class="mmodal-content">
+            <h2 style="text-align: center;" id="mmodal-title">The service you selected</h2>
+            <p id="mmodal-content" style="margin-bottom: 25px">Information about the service you selected</p>
+            <button class="mclose-button" onclick="toggleModal('close')">Close</button>
+        </div>
     </div>
+</main>
 
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <a class="navigation__icon navigation__icon--insta" href="http://instagram.com/shetlandrobotics"
+               target="_blank" data-track="['Menu','Click','Instagram']">Instagram</a>
+            <a class="navigation__icon navigation__icon--facebook" href="https://www.facebook.com/shetlandrobotics/"
+               target="_blank" data-track="['Menu','Click','Facebook']">Facebook</a>
+            <a href="tel:+447502593965" data-track="['Footer','Click','Mobile Number']">+44 (0)7502593965</a>
+            <a href="mailto:info@shetlandrobotics.com" data-track="['Footer','Click','E-mail']">info@shetlandrobotics.com</a>
+            <a href="legal/privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
 </footer>
-<!-- footer end -->
 </body>
 
-<script type="text/javascript" src="js/index.js"></script>
+<script>
+    var NS = {};
+</script>
+
+<script src="dist/v1/index.js"></script>
+<script src="dist/v1/app.bundle.js"></script>
 </html>
