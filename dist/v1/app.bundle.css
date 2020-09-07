@@ -2,6 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .mtrigger {
     cursor: pointer;
@@ -1523,12 +1538,12 @@ FOOTER
 .footer {
     position: relative;
     z-index: 50;
-    background: #00385E;
+    background: #002742;
     color: #fff;
 }
 
 .footer__content {
-    padding: 90px 70px;
+    padding: 45px 0px;
     text-align: center;
 }
 
